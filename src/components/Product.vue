@@ -39,7 +39,7 @@ export default {
             let inCart = false;
 
             cart.value.forEach(item => {
-                if(item.id == props.product.id) {
+                if(item.id === props.product.id) {
                     inCart = true;
                 }
             });
